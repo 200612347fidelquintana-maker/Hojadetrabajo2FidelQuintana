@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo 1</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">LOGO</div>
+        <h2>Ejemplo No. 1</h2>
+        
+        <h3>Colspan (columnas)</h3>
+        <table class="demo-table">
+            <tr>
+                <td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
+            </tr>
+            <tr>
+                <td colspan="2">6</td><td>7</td><td colspan="2">8</td>
+            </tr>
+            <tr>
+                <td colspan="4">9</td><td>10</td>
+            </tr>
+            <tr>
+                <td>11</td><td colspan="3">12</td><td></td>
+            </tr>
+        </table>
+        
+        <h3>Rowspan (filas)</h3>
+        <table class="demo-table">
+            <tr>
+                <td rowspan="4">1</td><td>2</td><td rowspan="3">3</td><td>4</td><td>5</td>
+            </tr>
+            <tr><td>6</td><td>7</td><td>8</td></tr>
+            <tr><td>9</td><td>10</td><td>11</td></tr>
+            <tr><td>12</td><td colspan="2">13</td><td>14</td></tr>
+            <tr><td>15</td><td colspan="3">16</td><td>17</td></tr>
+        </table>
+        
+        <a href="index.html" class="btn-volver">← Volver</a>
+    </div>
+</body>
+</html>
